@@ -24,7 +24,7 @@ function Achievments() {
                 <div className='flex flex-col '>
                     <div className='py-2'>
                         <h3 className='text-sky-600 text-2xl underline font-semibold'>Achievments</h3>
-                        <h4 className='text-3xl font-bold text-gray-800 py-2'>I've been fortunate to work with and for people from some <span className='text-blue-700'>amazing organizations</span></h4>
+                        <h4 className='text-3xl font-bold text-gray-800 py-2'>I&apos;ve been fortunate to work with and for people from some <span className='text-blue-700'>amazing organizations</span></h4>
                     </div>
                     <div className='flex flex-col py-3'>
                         <div className='flex py-2'>
