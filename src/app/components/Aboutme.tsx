@@ -24,7 +24,7 @@ const About = () => {
       <div className='p-3 '>
         <div>
           <div className='text-3xl font-bold text-gray-800 my-2'>About me</div>
-          <div className='font-bold text-gray-800'>Sumit Patidar</div>
+          <div className='font-bold text-gray-800'>Sumitsosp Patidar</div>
           <div className='text-sky-600'>React developer || Web developer || Programmer</div>
           <div>---------------</div>
           <div className='font-bold '>Residence:<span className='font-light text-sky-700'> India</span></div>
