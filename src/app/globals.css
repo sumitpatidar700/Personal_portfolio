@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 204, 223, 238;
+  --background-end-rgb: 204, 223, 200;
+  /* --background-end-rgb: 245, 235, 245; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +19,7 @@
 }
 
 body {
+  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +33,35 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* flex flex-row justify-evenly w-[70%] bg-slate-200 h-[400px] mt-10 p-2 */
+.portion{
+/* display: flex; */
+justify-content: space-evenly;
+width: 100%;
+/* background-color:rgb(186, 204, 219); */
+min-height: 600px !important;
+/* margin-top: 2rem; */
+padding: 2rem;
+}
+.portion2{
+/* display: flex; */
+background-color:rgb(180, 210, 235);
+min-height: 400px;
+margin-top: 2rem;
+/* padding: 2rem; */
+}
+.icon-container {
+  transition: transform 0.3s ease;
+}
+
+.icon-container:hover {
+  transform: scale(1.2);
+}
+.icon-container_s {
+  transition: transform 0.3s ease;
+}
+
+.icon-container_s:hover {
+  transform: scale(0.9);
 }
