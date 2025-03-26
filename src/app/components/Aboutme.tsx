@@ -6,8 +6,8 @@ import myimg from './Assests/myimg.jpg'
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Sumit_patidar_resume.pdf'; // Path to your PDF file in the public directory
-    link.download = 'Sumit_patidar_resume.pdf';
+    link.href = '/Sumit_Resume.pdf'; // Path to your PDF file in the public directory
+    link.download = 'Sumit_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
